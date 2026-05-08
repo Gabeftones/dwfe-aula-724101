@@ -10,7 +10,7 @@ function verificarCredenciais(){
 if(emailInformado == email){
     alert("Email informado corretamente");
     if(senhaInformada == senha){
-        alert("Senha informada corrretamente");
+        alert("Senha informada corretamente");
     }
     else{
     alert("Senha informada incorretamente");
