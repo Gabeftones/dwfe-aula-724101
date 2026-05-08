@@ -1,4 +1,4 @@
-import { usuario } from "./bd";
+import { usuario } from "./bd.js";
 
 const email = usuario.email;
 const senha = usuario.senha;
