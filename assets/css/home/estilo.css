@@ -1,0 +1,38 @@
+@import url("cartao.css");
+@import url("cabecalho.css");
+@import url("menulateral.css");
+@import url("responsividade.css");
+@import url("rodape.css");
+* {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  /* border: .1rem solid purple; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #4e4949;
+}
+
+
+section {
+  /* border: 0.1rem solid blue; */
+  display: flex;
+  flex: 1;
+}
+
+
+
+main {
+  /* border: 0.1rem solid purple; */
+  display: flex;
+  flex: 1;
+  padding: .5rem;
+}
+
